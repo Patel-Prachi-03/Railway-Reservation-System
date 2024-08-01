@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>E-Trains</title>
+<link rel="stylesheet" href="UserHome_Css.css">
+</head>
+<body>
+	<header>
+		<h1 class="hd">National Railway Ticket Catering And Tourism Corporation </h1>
+		<div class="home">
+			<p class="menu">
+				<a href="AdminHome.html">Home</a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="adminviewtrainfwd">View Trains</a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="adminsearchtrainfwd">Search By TrainNo</a>
+			</p>
+		</div>
+
+		<div class="home">
+			<p class="menu">
+				<a href="addtrainfwd">Add Train</a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="cancletrainfwd">Delete Train </a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="updatetrain">Update Train Details</a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="adminlogout">Logout</a>
+			</p>
+		</div>
+	</header>
+	<div id="addtrains" class='main' >
+		<p id='addtrains2'class='menu'> Add Trains </p>
+	</div>
+	<form id='tab2'class="tab" action="adminaddtrain" method="post">
+		<div class="form-group">
+            <label for="trainno">Train Number:</label>
+            <input type="text" id="trainno" name="trainno">
+        </div>
+        <div class="form-group">
+            <label for="trainname">Train Name:</label>
+            <input type="text" id="trainname" name="trainname">
+        </div>
+        <div class="form-group">
+            <label for="fromstation">From Station:</label>
+            <input type="text" id="fromstation" name="fromstation">
+        </div>
+        <div class="form-group">
+            <label for="tostation">To Station:</label>
+            <input type="text" id="tostation" name="tostation">
+        </div>
+        <div class="form-group">
+            <label for="available">Available:</label>
+            <input type="text" id="available" name="available">
+        </div>
+        <div class="form-group">
+            <label for="fare">Fare (INR):</label>
+            <input type="text" id="fare" name="fare">
+        </div>
+	</form>
+	<br />
+</body>
+</html>
